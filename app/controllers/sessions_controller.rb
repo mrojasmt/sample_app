@@ -11,7 +11,8 @@ class SessionsController < ApplicationController
       @title = "Sign in"
       render 'new'
     else
-        # handle successful signim
+      sign_in user
+      redirect_to user
   end
 end
   def destroy
