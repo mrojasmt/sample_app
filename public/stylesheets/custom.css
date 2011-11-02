@@ -136,6 +136,7 @@ td.sidebar {
 
 div.field, div.actions {
 	margin-bottom: 10px;
+	padding-right: 0;
 }
 
 
@@ -146,6 +147,7 @@ div.field, div.actions {
 	padding: 2px;
 	background-color: red;
 	display: true;
+
 }
 
 .field_with_errors label {
